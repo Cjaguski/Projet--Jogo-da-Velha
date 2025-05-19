@@ -32,3 +32,5 @@ export default function index(){
     return <View>Teste</View>
 }
 -
+
+Desafio para a proxima aula, estilizar o resto da pagina, deixar um simbolo de jogo da velha bonitinho

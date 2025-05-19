@@ -3,7 +3,7 @@ import { blue } from "react-native-reanimated/lib/typescript/Colors";
 export default function index(){
     const nome = "Cauã";
 
-    return <View>
+    return <View style={styles.container}>
         <View>Jogo da Velha</View>
         <View>Vencedor: </View>
         <View>
@@ -33,4 +33,7 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
     },
+    text: {
+        color: "blue",
+    }
 });
