@@ -8,6 +8,13 @@ export default function index(){
     return <View>Teste</View>
 }
 
+o <View> funciona basicamente como uma div no html, é necessário uma View principal no código, essa terá um return antes:
+return <View>
+<View><Text>Uma view que não é a principal está dentro da View principal</Text></View>
+</View>
+
+No exemplo temos a View principal onde estamos retornando ela, e dentro dela temos outra View, que não é a principal
+
 ## estrutura
 na pasta app deve se criar as páginas
 
